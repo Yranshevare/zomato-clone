@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.head{
+    height: 430px;
+    background-image: url(images/header.avif) ;
+    background-size: cover;
+   
+}
+.input-box:active{
+    border: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+   height: 4rem;
+}
+.get-app{
+    display: flex;
+    margin-right: 1rem;
+}
+.get-app p{
+    margin-left: 0.4rem;
+}
+.login{
+    display: flex;
+    font-size: 1.4rem;
+}
+.login p{
+    margin-right:2.2rem ;
+}
+
+.search{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   color: white;
+   
+   height: 300px;
+}
+.zomato-img{
+    height: 64px;
+    width: 305px;
+    background-image: url(images/zomato_logo.avif);
+    background-size: cover;
+}
+.search-bar{
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+.search-bar i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    background-color: white;
+    color: pink;
+    font-size: 1.3rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#option{
+    height: 55px;
+    width: 200px;
+    border-right: 1px solid gray;
+    color: grey;
+    font-size: 1rem;
+}
+.input-box{
+    height: 55px;
+    width: 480px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.9rem;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center; 
+   
+    margin-top:35px ;
+}
+.box-img{
+    height: 192px;
+    width: 353px;
+}
+.hero-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 353px;
+    height: 250px;
+     border: 1px solid grey;
+    border-radius: 15px;
+    margin-left: 20px;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px  rgb(0,0,0);
+}
+.hero-box:hover{
+   transform: scale(1.1);
+}
+.hbox{  
+    height: 65px;
+    color: rgb(28, 28, 28);
+    background-color: white;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-bottom: 1px solid grey;
+}
+.hbox p{
+    height: 50px;
+    color: rgb(76, 76, 76);
+    background-color: white;
+    border-radius: 15px;    
+}
+
+.order{
+    background-image: url(images/box_1.avif);
+}
+.dinig{
+    background-image: url(images/box_2.avif);
+}
+.event{
+    background-image: url(images/box_3.jpg);
+}
+
+.collection{
+    margin-top: 7%;
+    margin-left: 13rem;
+
+}
+.collection-box1{
+    font-size: 22px;
+}
+.collection-box2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 13rem;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-top: 2%;
+}
+.img-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 260px;
+    height: 300px;
+    border-radius: 8px;
+}
+.img-txt{
+    margin-bottom: 10%;
+    color: white;
+    font-size: 1rem;
+}
+.box-image1{
+    background-image: url(images/img_box1.avif);
+    background-size: cover;
+    z-index: -1;
+}
+.box-image2{
+    background-image: url(images/img_box2.avif);
+    background-size: cover;
+    z-index: -1;
+}
+.box-image3{
+    background-image: url(images/img_box3.avif);
+    background-size: cover;
+    z-index: -1;
+}
+.box-image4{
+    background-image: url(images/img_box4.avif);
+    background-size: cover;
+    z-index: -1;
+}
+
+.explore{
+   
+    margin-left: 13.5%;
+    margin-right: 15%;
+    margin-top: 7%;
+    
+}
+.explore h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.exp-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+.exp{
+    display: flex;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: rgb(67, 67, 67);
+}
+.exp h2{
+    margin-left: 10px;
+}
+.exp i{
+    margin-right: 20px;
+}
+
+.fot{
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    padding-top: 50px;
+}
+.footer{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.footer-logo{
+    height: 28px;
+    width: 132px;
+  
+    background-image: url(images/footer_logo.avif);
+    background-size: cover;
+}
+.fot-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+.content h5{
+    margin-bottom: 10px;
+}
+.content p{
+    margin-bottom: 5px;
+    color: rgb(79, 79, 79);
+}
+.copyright{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(44, 44, 44);
+}
